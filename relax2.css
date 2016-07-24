@@ -118,12 +118,11 @@ footer p{font-size: 2.5em;
             opacity: 0.5;
 }
  
-@media screen and (min-height: 768px) {
-  @-webkit-keyframes puffIn {
+ @-webkit-keyframes puffInHigh {
   0% {
     opacity: 0;
     -webkit-transform-origin: 50% 50%;
-    -webkit-transform: scale(2.5,2.5);
+    -webkit-transform: scale(3,3);
     -webkit-filter: blur(1px);
   }
 
@@ -134,7 +133,7 @@ footer p{font-size: 2.5em;
     -webkit-filter: blur(0px);
   }
 }
-@keyframes puffIn {
+@keyframes puffInHigh {
   0% {
     opacity: 0.5;
     transform-origin: 50% 50%;
@@ -148,4 +147,9 @@ footer p{font-size: 2.5em;
     transform: scale(1.5,1.5);
     filter: blur(0px);
   } }
+
+@media screen and (min-height: 768px) {
+.puffIn {
+  -webkit-animation-name: puffInHigh;
+  animation-name: puffInHigh;} 
 }
