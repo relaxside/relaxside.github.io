@@ -118,7 +118,8 @@ footer p{font-size: 2.5em;
             opacity: 0.5;
 }
  
-@media screen and (min-height: 768) {@-webkit-keyframes puffIn {
+@media screen and (min-height: 768px) {
+  @-webkit-keyframes puffIn {
   0% {
     opacity: 0;
     -webkit-transform-origin: 50% 50%;
