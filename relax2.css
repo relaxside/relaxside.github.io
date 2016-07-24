@@ -148,8 +148,44 @@ footer p{font-size: 2.5em;
     filter: blur(0px);
   } }
 
+ @-webkit-keyframes puffInMax {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: scale(5,5);
+    -webkit-filter: blur(1px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 40% 40%;
+    -webkit-transform: scale(2.5,2.5);
+    -webkit-filter: blur(0px);
+  }
+}
+@keyframes puffInMax {
+  0% {
+    opacity: 0.5;
+    transform-origin: 50% 50%;
+    transform: scale(5,5);
+    filter: blur(2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(2.5,2.5);
+    filter: blur(0px);
+  } }
+
+
 @media screen and (min-height: 768px) {
 .puffIn {
   -webkit-animation-name: puffInHigh;
   animation-name: puffInHigh;} 
+}
+@media screen and (min-height: 960px) {
+.puffIn {
+  -webkit-animation-name: puffInMax;
+  animation-name: puffInMax;} 
 }
