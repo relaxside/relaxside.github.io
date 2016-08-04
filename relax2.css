@@ -128,7 +128,7 @@ footer p{font-size: 2.5em;
 
   100% {
     opacity: 1;
-    -webkit-transform-origin: 40% 40%;
+    -webkit-transform-origin: 50% 50%;
     -webkit-transform: scale(1.5,1.5);
     -webkit-filter: blur(0px);
   }
@@ -158,7 +158,7 @@ footer p{font-size: 2.5em;
 
   100% {
     opacity: 1;
-    -webkit-transform-origin: 40% 40%;
+    -webkit-transform-origin: 50% 50%;
     -webkit-transform: scale(2.5,2.5);
     -webkit-filter: blur(0px);
   }
@@ -177,7 +177,35 @@ footer p{font-size: 2.5em;
     transform: scale(2.5,2.5);
     filter: blur(0px);
   } }
+ @-webkit-keyframes puffInMin {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: scale(2,2);
+    -webkit-filter: blur(1px);
+  }
 
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: scale(0.9,0.9);
+    -webkit-filter: blur(0px);
+  }
+}
+@keyframes puffInMin {
+  0% {
+    opacity: 0.5;
+    transform-origin: 50% 50%;
+    transform: scale(2,2);
+    filter: blur(2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(0.9,0.9);
+    filter: blur(0px);
+  } }
 
 @media screen and (min-height: 768px) {
 .puffIn {
@@ -188,4 +216,9 @@ footer p{font-size: 2.5em;
 .puffIn {
   -webkit-animation-name: puffInMax;
   animation-name: puffInMax;} 
+}
+@media screen and (max-device-height: 600px) {
+.puffIn {
+  -webkit-animation-name: puffInMin;
+  animation-name: puffInMin;} 
 }
