@@ -204,7 +204,7 @@ footer p{font-size: 2.5em;
   }
 
 }
-@media screen and (max-height: 700px) {footer p{
+@media screen and (max-device-height: 700px) {footer p{
   font-size: 1.5em;
  }
   
