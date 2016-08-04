@@ -182,7 +182,11 @@ footer p{font-size: 2.5em;
     transform: scale(2.5,2.5);
     filter: blur(0px);
   } }
+@media all and (max-device-width: 1000px) {footer p{
+  font-size: 1.5em;
+ }
 
+}
 
 @media screen and (min-height: 768px) {
 .puffIn {
@@ -202,9 +206,5 @@ footer p{font-size: 2.5em;
   }
 
 }
-@media screen and (max-width: 1000px) {footer p{
-  font-size: 1.5em;
- }
-  
-}
-@media screen and (min-device-height: 1200px) {}
+
+
