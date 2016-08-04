@@ -190,6 +190,7 @@ footer p{font-size: 2.5em;
 .puffIn {
   -webkit-animation-name: puffInHigh;
   animation-name: puffInHigh;} 
+.button {top: 57%}  
 }
 @media screen and (min-height: 960px) {
 .puffIn {
