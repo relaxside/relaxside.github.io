@@ -179,12 +179,12 @@ footer p{font-size: 2.5em;
   } }
 
 
-@media screen and (min-height: 768px) {
+@media screen and (min-device-height: 768px) {
 .puffIn {
   -webkit-animation-name: puffInHigh;
   animation-name: puffInHigh;} 
 }
-@media screen and (min-height: 960px) {
+@media screen and (min-device-height: 960px) {
 .puffIn {
   -webkit-animation-name: puffInMax;
   animation-name: puffInMax;} 
