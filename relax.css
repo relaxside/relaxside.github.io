@@ -52,8 +52,6 @@ img{ height: 100%;
      padding: 0;
        margin: 0%;
          width: 100%;
-          max-width: 1366px;
-           max-height: 768px;
             margin-top: -5%;
 }
 .box1{ width: 100%; 
@@ -204,8 +202,9 @@ footer p{font-size: 2.5em;
   }
 
 }
-@media screen and (max-device-height: 700px) {footer p{
+@media screen and (max-device-height: 600px) {footer p{
   font-size: 1.5em;
  }
   
 }
+@media screen and (min-device-height: 1200px) {}
