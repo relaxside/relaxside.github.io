@@ -45,8 +45,8 @@ img{ height: 100%;
      padding: 0;
        margin: 0%;
          width: 100%;
-          max-width: 1366px;
-           max-height: 768px;
+ /*         max-width: 1366px;
+           max-height: 768px;*/
             
 }
 .box1{ width: 100%; 
