@@ -33,7 +33,7 @@
   100% {
     opacity: 1;
     transform-origin: 50% 50%;
-    transform: scale(1,1);
+    transform: scale(1.05,1.05);
     filter: blur(0px);
   } }
 
