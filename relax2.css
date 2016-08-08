@@ -109,14 +109,7 @@ img{ height: 100%;
    background-image: -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%);
    color: #fff;
    }
-    
-footer p{font-size: 2.5em;
-         font-family: "comic sans MS";
-          margin-left: 10%;
-           color: #B0C4DE;
-           text-shadow: 3px 2px 2px #A9A9A9;
-            opacity: 0.5;
-}
+
  
  @-webkit-keyframes puffInHigh {
   0% {
@@ -247,11 +240,11 @@ footer p{font-size: 2.5em;
   -webkit-animation-name: puffInMax;
   animation-name: puffInMax;} 
 }
-@media screen and (max-device-height: 600px) {
+/*@media screen and (max-device-height: 600px) {
 .puffIn {
   -webkit-animation-name: puffInMin;
   animation-name: puffInMin;} 
-}
+}*/
  @media screen and (orientation: portrait) and (max-device-width: 980px) {
    
    img {height: 100%; width: auto; min-width: 100%;}
