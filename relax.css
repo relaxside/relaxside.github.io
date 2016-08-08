@@ -206,7 +206,7 @@ footer p{font-size: 2.5em;
   }
 
 }
- @media all and (orientation: portrait) {footer p {position: absolute; margin: 0; top: 20%; left: 2%; font-size: 45px;}
+ @media all and (orientation: portrait) {footer p {position: absolute; margin: 0 auto; display: block; top: 20%; width: 90%; font-size: 45px;}
    img {height: 100%; width: auto;}
    .button {min-width: 35%; min-height: 5%; left: 50%; top: 47.5%; font-size: 40px;}
      footer {height: 50%;
