@@ -254,7 +254,7 @@ img{ height: 100%;
   animation-name: puffInSmart;}
  }
  @media screen and (orientation: landscape) and (max-device-width: 980px) {
-   img {height: auto; min-width: 100%; min-height: 100%;}
+   img {height: auto; width: 100%; min-width: 100%; min-height: 100%;}
    .button {min-width: 35%; min-height: 15%; left: 85%; top: 60%; font-size: 60px;}
    .puffIn {
   -webkit-animation-name: puffInSmart;
