@@ -208,7 +208,7 @@ footer p{font-size: 2.5em;
   }
 
 }
- @media handheld and (orientation: portrait) {footer p {position: absolute; margin: 0 auto; display: block; top: 20%; font-size: 45px;}
+ @media screen and (orientation: portrait) and (max-device-width: 980px) {footer p {position: absolute; margin: 0 auto; display: block; top: 20%; font-size: 45px;}
    img {height: 100%; width: auto;}
    .button {min-width: 35%; min-height: 5%; left: 50%; top: 47.5%; font-size: 40px;}
      footer {height: 50%;
