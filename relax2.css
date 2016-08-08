@@ -211,14 +211,14 @@ footer p{font-size: 2.5em;
   0% {
     opacity: 0;
     -webkit-transform-origin: 50% 50%;
-    -webkit-transform: scale(2,2);
+    -webkit-transform: scale(2.4,2.4);
     -webkit-filter: blur(1px);
   }
 
   100% {
     opacity: 1;
     -webkit-transform-origin: 50% 50%;
-    -webkit-transform: scale(1.6,1.6);
+    -webkit-transform: scale(1.8,1.8);
     -webkit-filter: blur(0px);
   }
 }
@@ -226,14 +226,14 @@ footer p{font-size: 2.5em;
   0% {
     opacity: 0.5;
     transform-origin: 50% 50%;
-    transform: scale(2,2);
+    transform: scale(2.4,2.4);
     filter: blur(2px);
   }
 
   100% {
     opacity: 1;
     transform-origin: 50% 50%;
-    -webkit-transform: scale(1.6,1.6);
+    -webkit-transform: scale(1.8,1.8);
     filter: blur(0px);
   } }
 
@@ -254,7 +254,7 @@ footer p{font-size: 2.5em;
 }
  @media screen and (orientation: portrait) and (max-device-width: 980px) {
    img {height: 100%; width: auto;}
-   .button {min-width: 35%; min-height: 10%; left: 55%; top: 90%; font-size: 46px;}
+   .button {min-width: 45%; min-height: 10%; left: 55%; top: 90%; font-size: 56px;}
    .puffIn {
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;}
