@@ -247,14 +247,14 @@ img{ height: 100%;
 
  @media screen and (orientation: portrait) and (max-device-width: 980px) {
    
-   img {height: 100%; width: auto;}
+   img {height: 100%; min-height: 980px; width: auto;}
   /* .button {min-width: 45%; min-height: 10%; left: 55%; top: 90%; font-size: 60px;}
    .puffIn {
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;}*/
  }
  @media screen and (orientation: landscape) and (max-device-width: 980px) {
-   img {width: 100%; height: auto;}
+   img {width: 100%; min-width: 980px; height: auto;}
    /*.button {min-width: 35%; min-height: 15%; left: 85%; top: 60%; font-size: 60px;}
    .puffIn {
   -webkit-animation-name: puffInSmart;
