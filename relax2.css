@@ -222,3 +222,6 @@ footer p{font-size: 2.5em;
   -webkit-animation-name: puffInMin;
   animation-name: puffInMin;} 
 }
+ @media screen and (orientation: portrait) and (max-device-width: 980px) {footer p {position: absolute; margin: 0; padding: 0; display: block; left: 20px;  top: 20%; font-size: 48px;}
+   img {height: 100%; width: auto;}
+   .button {min-width: 35%; min-height: 5%; left: 55%; top: 90%; font-size: 46px;}}
