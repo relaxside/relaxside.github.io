@@ -246,14 +246,13 @@ img{ height: 100%;
   animation-name: puffInMin;} */
 
 @media screen and (orientation: portrait) and (max-device-height: 980px) {
-   html {width: 100%;
-     height: 100%;
-   }
-   img {height: auto; width: 100%; margin: auto; padding: 0;}
+
+   /*img {height: auto; width: 100%; margin: auto; padding: 0;}*/
+   .box1 img {display: none;}
    .puffIn {animation: none;}
    .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: 2px;}
-   .box1 {height: 150%;
-   width: 150%;
+   .box1 {height: 100%;
+   width: 100%;
    overflow: visible;
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
@@ -262,6 +261,21 @@ img{ height: 100%;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite; 
   animation-direction: alternate;
+   }
+   .low1 {background: url('images/img1_low.jpg') no-repeat;
+     background-size: cover;
+   }
+   .low2 {background: url('images/img3_low.jpg') no-repeat;
+     background-size: cover;
+   }
+   .low3 {background: url('images/img4_low.jpg') no-repeat;
+     background-size: cover;
+   }
+   .low5 {background: url('images/img5_low.jpg') no-repeat;
+     background-size: cover;
+   }
+   .low6 {background: url('images/img6_low.jpg') no-repeat;
+     background-size: cover;
    }
  }
 /* @media screen and (orientation: landscape) and (max-device-width: 980px) {
