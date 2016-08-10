@@ -121,11 +121,11 @@ img{ height: 100%;
    text-align: center;
    border: 5px solid #c8deeb;
    background: #5d8cab;
-   background: -webkit-gradient(linear, left top, left bottom, from(#c6e1f2), to(#5d8cab));
-   background: -webkit-linear-gradient(top, #c6e1f2, #5d8cab);
-   background: -moz-linear-gradient(top, #c6e1f2, #5d8cab);
-   background: -ms-linear-gradient(top, #c6e1f2, #5d8cab);
-   background: -o-linear-gradient(top, #c6e1f2, #5d8cab);
+   background: url("images/sound.png"), -webkit-gradient(linear, left top, left bottom, from(#c6e1f2), to(#5d8cab));
+   background: url("images/sound.png"), -webkit-linear-gradient(top, #c6e1f2, #5d8cab);
+   background: url("images/sound.png"), -moz-linear-gradient(top, #c6e1f2, #5d8cab);
+   background: url("images/sound.png"), -ms-linear-gradient(top, #c6e1f2, #5d8cab);
+   background: url("images/sound.png"), -o-linear-gradient(top, #c6e1f2, #5d8cab);
    background-image: url("images/sound.png"), -ms-linear-gradient(top, #c6e1f2 0%, #5d8cab 100%);
    background-repeat: no-repeat;
    background-position: 0% 0%, 50% 50%;
@@ -143,25 +143,23 @@ img{ height: 100%;
    border: 5px solid #9db1bd;
    text-shadow: #1e4158 0 1px 0;
    background: #84aec9;
-   background: -webkit-gradient(linear, left top, left bottom, from(#c3d1db), to(#84aec9));
-   background: -webkit-linear-gradient(top, #c3d1db, #84aec9);
-   background: -moz-linear-gradient(top, #c3d1db, #84aec9);
-   background: -ms-linear-gradient(top, #c3d1db, #84aec9);
-   background: -o-linear-gradient(top, #c3d1db, #84aec9);
+   background: url("images/sound.png"), -webkit-gradient(linear, left top, left bottom, from(#c3d1db), to(#84aec9));
+   background: url("images/sound.png"), -webkit-linear-gradient(top, #c3d1db, #84aec9);
+   background: url("images/sound.png"), -moz-linear-gradient(top, #c3d1db, #84aec9);
+   background: url("images/sound.png"), -ms-linear-gradient(top, #c3d1db, #84aec9);
+   background: url("images/sound.png"), -o-linear-gradient(top, #c3d1db, #84aec9);
    background-image: -ms-linear-gradient(top, #c3d1db 0%, #84aec9 100%), url("images/sound.png");
-   color: #fff;
    }
 .sound:active {
    text-shadow: #1e4158 0 1px 0;
    border: 5px solid #b9ced9;
    background: #79a6c4;
-   background: -webkit-gradient(linear, left top, left bottom, from(#5b778a), to(#84aec9));
-   background: -webkit-linear-gradient(top, #5b778a, #79a6c4);
-   background: -moz-linear-gradient(top, #5b778a, #79a6c4);
-   background: -ms-linear-gradient(top, #5b778a, #79a6c4);
-   background: -o-linear-gradient(top, #5b778a, #79a6c4);
-   background-image: -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%), url("images/sound.png");
-   color: #fff;
+   background: url("images/sound.png"), -webkit-gradient(linear, left top, left bottom, from(#5b778a), to(#84aec9));
+   background: url("images/sound.png"), -webkit-linear-gradient(top, #5b778a, #79a6c4);
+   background: url("images/sound.png"), -moz-linear-gradient(top, #5b778a, #79a6c4);
+   background: url("images/sound.png"), -ms-linear-gradient(top, #5b778a, #79a6c4);
+   background: url("images/sound.png"), -o-linear-gradient(top, #5b778a, #79a6c4);
+   background-image: url("images/sound.png"), -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%);
    }
  @-webkit-keyframes puffInHigh {
   0% {
