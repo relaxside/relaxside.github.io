@@ -1,6 +1,7 @@
 @font-face {
     font-family: Webdings; 
-    src: url(WEBDINGS.TTF); }
+    src: local("Webdings") 
+    url("WEBDINGS.TTF"); }
 .puffIn {
   -webkit-animation-name: puffIn;
   animation-name: puffIn;
