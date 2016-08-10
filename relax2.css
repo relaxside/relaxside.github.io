@@ -253,7 +253,7 @@ img{ height: 100%;
    .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: 2px;}
    .box1 {height: 100%;
    width: 100%;
-   overflow: visible;
+
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
   animation-duration: 18s;
@@ -262,7 +262,7 @@ img{ height: 100%;
   animation-iteration-count: infinite; 
   animation-direction: alternate;
    }
-   .low1 {background: url('images/img1_low.jpg') no-repeat;
+   .low1 {background: 0% 0% url('images/img1_low.jpg') no-repeat black;
      background-size: cover;
    }
    .low2 {background: url('images/img3_low.jpg') no-repeat;
