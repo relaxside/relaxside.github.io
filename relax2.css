@@ -245,7 +245,7 @@ img{ height: 100%;
   -webkit-animation-name: puffInMin;
   animation-name: puffInMin;} */
 
-@media screen and (orientation: portrait) and (max-device-height: 980px) {
+@media screen and (orientation: portrait) and (max-height: 980px) {
 
    /*img {height: auto; width: 100%; margin: auto; padding: 0;}*/
    
