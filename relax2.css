@@ -114,11 +114,10 @@ img{ height: 100%;
    color: #fff;
    }
 .sound { position: absolute; 
- /*display: none;*/
+   display: none;
    z-index: 12;
    top: 85%;
-   left: 2%;
-   width: 10%;
+   left: 5%;
    text-align: center;
    border: 5px solid #c8deeb;
    background: #5d8cab;
@@ -127,19 +126,17 @@ img{ height: 100%;
    background: -moz-linear-gradient(top, #c6e1f2, #5d8cab);
    background: -ms-linear-gradient(top, #c6e1f2, #5d8cab);
    background: -o-linear-gradient(top, #c6e1f2, #5d8cab);
-   background-image: -ms-linear-gradient(top, #c6e1f2 0%, #5d8cab 100%);
-   padding: 9px 18px;
+   background-image: -ms-linear-gradient(top, #c6e1f2 0%, #5d8cab 100%), url("images/sound.png");
+   background-repeat: no-repeat;
+   background-position: 0% 0%, 50% 50%;
+   background-size: auto, 50%;
+   padding: 20px;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
    border-radius: 50%;
    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   text-shadow: #7ea4bd 0 1px 0;
-   color: #dbdbdb;
-   font-size: 80px;
-   font-family: Webdings;
-   text-decoration: none;
    vertical-align: middle;
    }
  .sound:hover {
@@ -151,7 +148,7 @@ img{ height: 100%;
    background: -moz-linear-gradient(top, #c3d1db, #84aec9);
    background: -ms-linear-gradient(top, #c3d1db, #84aec9);
    background: -o-linear-gradient(top, #c3d1db, #84aec9);
-   background-image: -ms-linear-gradient(top, #c3d1db 0%, #84aec9 100%);
+   background-image: -ms-linear-gradient(top, #c3d1db 0%, #84aec9 100%), url("images/sound.png");
    color: #fff;
    }
 .sound:active {
@@ -163,7 +160,7 @@ img{ height: 100%;
    background: -moz-linear-gradient(top, #5b778a, #79a6c4);
    background: -ms-linear-gradient(top, #5b778a, #79a6c4);
    background: -o-linear-gradient(top, #5b778a, #79a6c4);
-   background-image: -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%);
+   background-image: -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%), url("images/sound.png");
    color: #fff;
    }
  @-webkit-keyframes puffInHigh {
