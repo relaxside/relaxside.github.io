@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="relax2.css" type="text/css"/>
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-<meta name="viewport" content="width=980px">
+<meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=no" />
 <title>Relaxside</title>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -38,7 +38,7 @@
 
 <body>
 
-<audio autoplay loop>
+<audio id=audio autoplay loop preload>
 <source src="music/forest.mp3" type="audio/mpeg">
 
 
@@ -47,8 +47,31 @@
 
 <img class="puffIn" src="images/img6.jpg"> 
 </div>
-<a href='final.html' class='button'>about us</a> 
+<a href='final.html' class='button'>about us</a>
+<p class=sound id=play onclick="togglePlay();"></p>
+<script>
+ var audioElm = document.getElementById("audio");
+  function togglePlay() {
+         if (document.getElementById("audio")) {
 
+           if (audioElm.paused == true) {
+             playAudio(audioElm);    //  if player is paused, then play the file
+           } else {
+             pauseAudio(audioElm);   //  if player is playing, then pause
+           }
+         }
+       }
+function playAudio(audioElm) {
+         document.getElementById("play").innerHTML = ""; // Set button text == Pause
+         // Get file from text box and assign it to the source of the audio element 
+         audioElm.play();
+       }
+
+       function pauseAudio(audioElm) {
+         document.getElementById("play").innerHTML = ""; // Set button text == Play
+         audioElm.pause();
+       }
+</script>
 </body>
 
 
