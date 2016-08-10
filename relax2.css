@@ -230,12 +230,12 @@ img{ height: 100%;
     
   } }
 
-@media screen and (min-height: 768px) {
+@media screen and (orientation: landscape) and (min-height: 768px) {
 .puffIn {
   -webkit-animation-name: puffInHigh;
   animation-name: puffInHigh;} 
 }
-@media screen and (min-height: 960px) {
+@media screen and (orientation: landscape) and (min-height: 980px) {
 .puffIn {
   -webkit-animation-name: puffInMax;
   animation-name: puffInMax;} 
