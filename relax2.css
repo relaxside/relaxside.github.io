@@ -249,11 +249,12 @@ img{ height: 100%;
    html {width: 100%;
      height: 100%;
    }
-   img {height: 100%; width: auto; margin: auto; padding: 0;}
+   img {height: 150%; width: auto; margin: auto; padding: 0;}
    .puffIn {animation: none;}
-   .button {width: 45%; height: 10%; left: 50%; bottom: 2%; font-size: 5; vertical-align: middle;}
+   .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: none;}
    .box1 {height: 100%;
    width: 100%;
+   overflow: visible;
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
   animation-duration: 18s;
