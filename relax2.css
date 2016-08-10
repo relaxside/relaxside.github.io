@@ -248,8 +248,10 @@ img{ height: 100%;
 @media screen and (orientation: portrait) and (max-device-height: 980px) {
 
    /*img {height: auto; width: 100%; margin: auto; padding: 0;}*/
-   .box1 img {display: none;}
-   .puffIn {animation: none;}
+   
+   .puffIn {animation: none;
+     display: none;
+   }
    .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: 2px;}
    .box1 {height: 100%;
    width: 100%;
