@@ -148,8 +148,13 @@ img{ height: 100%;
    background: url("images/sound.png"), -moz-linear-gradient(top, #c3d1db, #84aec9);
    background: url("images/sound.png"), -ms-linear-gradient(top, #c3d1db, #84aec9);
    background: url("images/sound.png"), -o-linear-gradient(top, #c3d1db, #84aec9);
-   background-image: -ms-linear-gradient(top, #c3d1db 0%, #84aec9 100%), url("images/sound.png");
-   }
+   background-image: url("images/sound.png"), -ms-linear-gradient(top, #c3d1db 0%, #84aec9 100%);
+   background-repeat: no-repeat;
+   background-position: 50% 50%, 0% 0%;
+   background-size: 70%, auto;
+     
+ }
+   
 .sound:active {
    text-shadow: #1e4158 0 1px 0;
    border: 5px solid #b9ced9;
@@ -160,7 +165,11 @@ img{ height: 100%;
    background: url("images/sound.png"), -ms-linear-gradient(top, #5b778a, #79a6c4);
    background: url("images/sound.png"), -o-linear-gradient(top, #5b778a, #79a6c4);
    background-image: url("images/sound.png"), -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%);
-   }
+   background-repeat: no-repeat;
+   background-position: 50% 50%, 0% 0%;
+   background-size: 70%, auto;
+    
+}
  @-webkit-keyframes puffInHigh {
   0% {
     opacity: 0;
