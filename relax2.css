@@ -245,7 +245,7 @@ img{ height: 100%;
   -webkit-animation-name: puffInMin;
   animation-name: puffInMin;} */
 
-@media screen and (orientation: portrait) and (max-height: 980px) {
+@media screen and (orientation: portrait) and (max-device-height: 980px) {
 
    /*img {height: auto; width: 100%; margin: auto; padding: 0;}*/
    
@@ -256,16 +256,16 @@ img{ height: 100%;
    .box1 {height: 100%;
    width: 100%;
 
-  -webkit-animation-name: puffInSmart;
+  /*-webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
   animation-duration: 18s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite; 
-  animation-direction: alternate;
+  animation-direction: alternate;*/
    }
    .low1 {background: 0% 0% url('images/img1_low.jpg') no-repeat black;
-     background-size: cover;
+     background-size: 100%;
    }
    .low2 {background: url('images/img3_low.jpg') no-repeat;
      background-size: cover;
