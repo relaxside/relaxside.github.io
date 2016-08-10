@@ -58,11 +58,22 @@ background-size: cover;
 
 <img class="puffIn" src="images/img1.jpg"> 
 </div>
-<p class=sound></p>
+<p class=sound onclick="PlaySound()"></p>
 <a href='#' class='button' onclick='next()'>next world</a>
 <script>
 function next() {
 window.location ="relax3.html"}</script>
+
+function PlaySound() { 
+var Sound = new Audio(); 
+Sound.src = music/wave.mp3; 
+Sound.load(); 
+Sound.oncanplay = function() { 
+Sound.play(); 
+console.log("ok\r\n"); 
+}; 
+console.log("loading..."); 
+} 
 
 </body>
 
