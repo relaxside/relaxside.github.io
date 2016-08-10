@@ -252,7 +252,7 @@ img{ height: 100%;
    .puffIn {animation: none;
      display: none;
    }
-   .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: 2px;}
+   .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: 2px; opacity: 0.8;}
    .box1 {position: absolute;
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
@@ -266,16 +266,16 @@ img{ height: 100%;
      background-size: 100%;
    }*/
    .low2 {
-     background: url('images/img3_low.jpg') no-repeat;
+     background: 50% 0% url('images/img3_low.jpg') no-repeat;
      background-size: cover;
    }
-   .low3 {background: url('images/img4_low.jpg') no-repeat;
+   .low3 {background: 50% 0% url('images/img4_low.jpg') no-repeat;
      background-size: cover;
    }
-   .low5 {background: url('images/img5_low.jpg') no-repeat;
+   .low5 {background: 50% 0% url('images/img5_low.jpg') no-repeat;
      background-size: cover;
    }
-   .low6 {background: url('images/img6_low.jpg') no-repeat;
+   .low6 {background: 50% 0% url('images/img6_low.jpg') no-repeat;
      background-size: cover;
    }
  }
