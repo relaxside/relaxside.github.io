@@ -116,7 +116,7 @@ img{ height: 100%;
 .sound { position: absolute; 
    display: none;
    z-index: 12;
-   top: 85%;
+   top: 83%;
    left: 5%;
    text-align: center;
    border: 5px solid #c8deeb;
