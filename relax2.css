@@ -109,7 +109,7 @@ img{ height: 100%;
    background-image: -ms-linear-gradient(top, #5b778a 0%, #79a6c4 100%);
    color: #fff;
    }
-.sound: { position: absolute; 
+.sound { position: absolute; 
  display: none;
    z-index: 12;
    top: 85%;
