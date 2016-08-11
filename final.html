@@ -72,9 +72,8 @@ img{ height: auto;
 	position: absolute; 
 	background: 50% 0% url(images/input.png) no-repeat;
 	background-size: auto 100%;
-	min-width: 10%;
-	min-height: 15%;
-	height: 120px;
+	width: 15%;
+	height: 15%;
 	left: 15%;
 	/*top: 50%;*/
 	vertical-align: center;
@@ -141,7 +140,8 @@ img{
   	.text2, ul {font-size: 40px;}
   }
    @media screen and (max-width: 900px) {.text2, ul {font-size: 30px;}}
-   @media all and (orientation: portrait) {img {height: 100%; width: auto;}} 
+   @media screen and (orientation: portrait) and (max-device-height: 980px) {img {height: 100%; width: auto;}
+   .text2, ul {font-size: 60px;}} 
 	</style>
 <title>Связаться с разработчиками</title>
 
