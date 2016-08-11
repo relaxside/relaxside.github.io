@@ -311,7 +311,7 @@ img{ height: 100%;
    .puffIn {animation: none;
      display: none;
    }
-   .button {width: 40%; height: 8%; left: 50%; bottom: 2%; font-size: 80px; vertical-align: middle; padding: 2px; opacity: 0.8;}
+   .button {width: 40%; height: 8%; left: 50%; top: 83%; font-size: 78px; vertical-align: middle; padding: 2px; opacity: 0.8;}
    .box1 {position: absolute;
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
