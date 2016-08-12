@@ -346,7 +346,7 @@ img{ height: 100%;
    left: 60%;
    width: 30%;
    height: 12%;
-   font-size: 40px;}
+   font-size: 40px; opacity: 0.6;}
 }
   /* img {width: 100%;  height: auto;}
    .button {min-width: 35%; min-height: 15%; left: 85%; top: 60%; font-size: 60px;}
