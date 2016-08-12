@@ -311,7 +311,8 @@ img{ height: 100%;
    .puffIn {animation: none;
      display: none;
    }
-   .button {width: 40%; height: 8%; left: 50%; top: 83%; font-size: 78px; vertical-align: middle; padding: 2%; opacity: 0.8;}
+   .button {width: 40%; height: 8%; left: 50%; top: 83%; font-size: 78px; vertical-align: middle; padding: 2%; -webkit-border-radius: 25%;
+   -moz-border-radius: 25%; border-radius: 25%; ; opacity: 0.8;}
    .box1 {position: absolute;
   -webkit-animation-name: puffInSmart;
   animation-name: puffInSmart;
@@ -339,7 +340,13 @@ img{ height: 100%;
    }
    .sound {display: block; opacity: 0.6;}
  }
-@media screen and (orientation: landscape) and (max-device-height: 500px) {.sound {display: block; opacity: 0.6; padding: 3.5%; top: 76%;}}
+@media screen and (orientation: landscape) and (max-device-height: 500px) {.sound {display: block; opacity: 0.6; padding: 3.5%; top: 76%;}
+    .button {
+  top: 83%;
+   left: 70%;
+   width: 30%;
+   height: 15%;
+}
   /* img {width: 100%;  height: auto;}
    .button {min-width: 35%; min-height: 15%; left: 85%; top: 60%; font-size: 60px;}
    .puffIn {
