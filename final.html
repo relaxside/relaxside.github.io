@@ -53,7 +53,7 @@ body{
 	height: 100%;
 }
 .info {
-	height: 40%;
+	height: 50%;
 	vertical-align: center;
 	margin: 0; 
 	padding: 0}
@@ -86,7 +86,7 @@ a{color: white;}
 
 .a1{
 	text-decoration: underline;
-    color: #d2d2d6;
+ 	color: #d2d2d6;
 }
 
 .text a {color: slateblue;}
@@ -107,13 +107,7 @@ ul {
 		padding: 0;
 	}
  }
- @media screen and (min-device-aspect-ratio: 5/4) {
-<!--.fin { 
-	height: auto;
-	width: auto;
-  }-->
-  .back {top: 40%;}
-  }
+
  <!-- @media screen and (min-width: 1800px){
   .fin { height: auto;
      width: 120%;
@@ -133,6 +127,9 @@ ul {
 	width: 100%}
    .text2, ul {font-size: 60px;}
    .back {left: 5%; top: 45%}} 
+     @media screen and (orientation: landscape) and (max-device-height: 500px) {
+  body {background: url("images/img_fin.jpg") no-repeat;
+	background-size: cover;}}
 	</style>
 <title>Связаться с разработчиками</title>
 
@@ -140,13 +137,11 @@ ul {
 
 
 <body>
-<!-- <div class="box1"><img class="fin" src="images/img_fin.jpg"> </div> -->
 <div class=box2>
-<div class=info><p class=text2>связь с разработчиками</p>
-            
-			  
-			  <ul>
-			  <li> наша почта <a href=mailto:web.chaos@ya.ru class="a1">web.chaos@ya.ru</a></li>
+<div class=info>
+<h2 class=text2>связь с разработчиками</h2>
+            <ul>
+			  <li> наша почта: <a href=mailto:web.chaos@ya.ru class="a1">web.chaos@ya.ru</a></li>
 			  <li>страницы в соц. сетях: </li> 
 			  
 			  <li><a href="https://vk.com/yatebianeznayu" class="a1">vk.com/yatebianeznayu</a></li> 
